@@ -6,9 +6,9 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if(x > y) {
-    rturn x;
+    return x;
   }
-  retur y;
+  return y;
 }
 
 function saludo(idioma) {
@@ -19,13 +19,13 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if(idioma== 'aleman') {
-    retur "Guten Tag!";
+    return "Guten Tag!";
   } else if (idioma== 'mandarin') {
-     retur 'Ni Hao!';
+     return 'Ni Hao!';
   } else if (idioma== 'ingles') {
-    retur 'Hello';
+    return 'Hello!';
   } else {
-     retur 'hola';
+     return 'Hola!';
   }
 }
 
@@ -34,14 +34,14 @@ function esDiezOCinco(numero) {
     // Devuelve "true" si "numero" es 10 o 5
     // De lo contrario, devuelve "false"
     // Tu código:
-    retur numero === 10 || numero === 5;
+    return numero === 10 || numero === 5;
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  retur numero < 50 && numer > 20;
+  return numero < 50 && numero > 20;
 }
 
 function esEntero(numero) {
@@ -52,7 +52,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  retur numero % 1 === 0;
+  return numero % 1 === 0;
 }
 
 function fizzBuzz(numero) {
